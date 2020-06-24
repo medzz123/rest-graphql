@@ -4,6 +4,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 
+import Layout from '../src/components/Layout';
 import theme from '../src/theme';
 
 function App({ Component, pageProps }: AppProps) {
@@ -47,7 +48,9 @@ function App({ Component, pageProps }: AppProps) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <Layout showLayout={true}>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </React.Fragment>
   );
