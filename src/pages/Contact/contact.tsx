@@ -6,6 +6,7 @@ const Contact = () => {
     <div>
       <main>
         <Typography variant="body1">Contact Page</Typography>
+        <p>Added rest gqp</p>
       </main>
     </div>
   );
