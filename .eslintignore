@@ -1,0 +1,5 @@
+.eslintrc.js
+public
+node_modules
+.next
+.vscode
