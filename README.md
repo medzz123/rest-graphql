@@ -1,4 +1,4 @@
-# Curl Graphql
+# Rest Graphql
 
 Couldn't find any websites which would convert graphql queries to curl compatible.
 
