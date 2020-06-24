@@ -6,6 +6,7 @@ const Home = () => {
       <main>
         <h1>Welcome here!</h1>
         <p>Everything is happening</p>
+        <p>Sup</p>
       </main>
 
       <footer>Something goes here</footer>
